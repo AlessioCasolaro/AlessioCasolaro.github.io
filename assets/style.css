@@ -1,0 +1,180 @@
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
+#container {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+#profile {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out
+}
+
+.btn, a.btn {
+  background: 0 0;
+  color: #fff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 2px solid #fff;
+  padding: 10px 18px;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 700
+}
+
+.btn:active, .btn:focus, .btn:hover, a.btn:active, a.btn:focus, a.btn:hover {
+  outline: 0;
+  background: #fff;
+  color: #0d6efd;
+  border-color: #fff
+}
+
+.btn-primary {
+  margin-bottom: 60px
+}
+
+p {
+  line-height: 1.5
+}
+
+.wrapper {
+  max-width: 700px;
+  max-height: 100%;
+  margin: 0 auto;
+  padding: 30px;
+  padding-top: 60px
+}
+
+.profile-image {
+  margin-bottom: 30px
+}
+
+.name {
+  font-size: 48px;
+  margin-top: 0;
+  margin-bottom: 15px
+}
+
+.tagline {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 30px
+}
+
+.aboutme {
+  text-align: left;
+  margin-bottom: 45px
+}
+
+.aboutme p {
+  font-size: 18px
+}
+
+.aboutme p:last-child {
+  margin-bottom: 0
+}
+
+.education {
+  text-align: left;
+  margin-bottom: 45px
+}
+
+.education p {
+  font-size: 14px
+}
+
+.education p:last-child {
+  margin-bottom: 0
+}
+
+.lead-text {
+  margin-bottom: 15px
+}
+
+.social-list a {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: rgba(255, 255, 255, .6);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  color: white;
+  padding-top: 7px
+}
+
+.social-list a:hover {
+  background: #fff;
+  color: #0d6efd;
+}
+
+.social-list .fa {
+  font-size: 20px;
+}
+
+.footer {
+  padding: 30px;
+}
+
+.footer .copyright {
+  line-height: 1.6;
+  color: gray;
+  font-size: 13px;
+}
+
+@media (max-width:767px) {
+  .name {
+    font-size: 36px
+  }
+  .tagline {
+    font-size: 20px
+  }
+  .profile-image {
+    width: 100px;
+    height: 100px
+  }
+}
