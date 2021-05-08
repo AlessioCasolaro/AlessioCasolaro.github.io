@@ -42,7 +42,8 @@ function addClickListeners() {
 
 function handleEvent(e) {
   if (e.touches) {
-    e.preventDefault();
+    if (e.changedTouches.length > 1) e.preventDefault();
+
     e = e.touches[0];
   }
   var currentColor = colorPicker.current();
@@ -157,6 +158,7 @@ var animate = anime({
   }
 });
 
+
 var resizeCanvas = function () {
   cW = window.innerWidth;
   cH = window.innerHeight;
@@ -208,3 +210,5 @@ function fauxClick(x, y) {
   fauxClick.pageY = y;
   document.dispatchEvent(fauxClick);
 }
+
+
