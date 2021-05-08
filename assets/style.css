@@ -165,7 +165,9 @@ p {
 }
 
 .profile-image {
-  margin-bottom: 30px
+  margin-bottom: 30px;
+  border:4px solid white;
+  border-radius: 50%;
 }
 
 .name {
