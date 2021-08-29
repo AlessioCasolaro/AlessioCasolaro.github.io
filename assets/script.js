@@ -212,3 +212,29 @@ function fauxClick(x, y) {
 }
 
 
+//EE
+function fadeIn(el, time) {
+  el.style.opacity = 0;
+
+  var last = +new Date();
+  var tick = function() {
+    el.style.opacity = +el.style.opacity + (new Date() - last) / time;
+    last = +new Date();
+
+    if (+el.style.opacity < 1) {
+      (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
+    }
+  };
+
+  tick();
+}
+
+function ee() {
+  var ee = document.getElementById('ee')
+    if(ee.className){
+        document.getElementById('ee').className = '';
+    } else {
+        document.getElementById('ee').className = 'fade';
+    }
+}
+

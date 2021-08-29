@@ -189,3 +189,14 @@ p {
     font-size: 20px
   }
 }
+
+#ee {
+  opacity:0;
+  -webkit-transition: opacity 3s;
+  -moz-transition: opacity 3s;     
+  transition: opacity 3s; 
+  }
+  
+  #ee.fade {
+  opacity:1;
+  }
