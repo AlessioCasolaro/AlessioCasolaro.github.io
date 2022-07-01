@@ -14,69 +14,80 @@
   <!-- Global CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/style.css">
   <!-- Icon CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link rel="stylesheet" href="../assets/style.css">
-  <script language="JavaScript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <title>Alessio Casolaro</title>
 </head>
 
 <body>
-  <div id="container">
-    <!-- partial:index.partial.html -->
-    <canvas id="c"></canvas><!-- https://codepen.io/alexzaworski/pen/mEkvAG Credits -->
-    <!-- partial -->
-  </div>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/1.0.0/anime.min.js'></script>
-  <script src="../assets/script.js"></script>
-  
+  <!-- Start Canvas -->
+  <canvas id="c"></canvas><!-- https://codepen.io/alexzaworski/pen/mEkvAG Credits -->
+  <!-- End Canvas -->
+
+  <!-- Profile div -->
   <div id="profile">
-    <div class="m-4 text-end"><p><strong class="text-decoration-underline">ITA</strong> | <a href="../index.html" class="text-decoration-none" aria-label="Switch to ENG">ENG</a></p></div>
+    <!-- Language Selection -->
+    <div class="m-4 text-end">
+      <p><strong class="text-decoration-underline">ITA</strong> | <a href="../index.html" class="text-decoration-none"
+          aria-label="Switch to ENG">ENG</a></p>
+    </div>
+    <!-- End Language Selection -->
     <div class="wrapper text-center">
-      <img class="profile-image rounded-circle img-fluid" style="width: 125px; height: 125px;"
+      <!-- Image and title -->
+      <img class="profile-image rounded-circle img-fluid" title="Alessio Casolaro"
         src="../assets/images/alessiocasolaro.png" alt="Alessio Casolaro" />
       <h1 class="name">Alessio Casolaro</h1>
       <h2 class="tagline">Sviluppatore</h2>
-      <!--aboutme-->
+      <!-- End Image and title -->
+      <!-- About Me -->
       <div class="aboutme">
-        <p>👋 &nbsp;Ciao! Sono Alessio Casolaro, sono nato il 6 Aprile 1999 e vivo a Somma Vesuviana(NA), Italia. Sin da bambino ho sviluppato la passione per la tecnologia e in particolare per il mondo dei computer.<br>
-        💡&ensp;Mi piace esplorare nuove tecnologie.<br>
-        🎓&nbsp;Laurea Triennale in Informatica presso l'Università degli Studi di Salerno.<br>
-        📚&nbsp;Attualmente studio Cloud Computing presso l'Università degli Studi di Salerno.<br>
-        🌱&nbsp;Sto cercando di imparare sempre di più sulle Tecnologie per il Web, Cloud Computing e sul Mobile Programming.<br></p>
-        <!--<p class="text-center">Résumé: <a href="/assets/cv/CV Alessio Casolaro.pdf">Scarica</a></p>-->
+        <p>👋 &nbsp;Ciao! Sono Alessio Casolaro, sono nato il 6 Aprile 1999 e vivo a Somma Vesuviana(NA), Italia. Sin
+          da bambino ho sviluppato la passione per la tecnologia e in particolare per il mondo dei computer.<br>
+          💡&ensp;Mi piace conoscere nuove tecnologie.<br>
+          🎓&nbsp;Laurea Triennale in Informatica presso l'Università degli Studi di Salerno.<br>
+          📚&nbsp;Attualmente studio Cloud Computing presso l'Università degli Studi di Salerno.<br>
+          🌱&nbsp;Sto cercando di imparare sempre di più sulle Tecnologie per il Web, Cloud Computing e un po' di
+          Sicurezza.<br></p>
+        <!--<p class="text-center">Résumé: <a href="../assets/cv/CV Alessio Casolaro.pdf">Download</a></p>-->
       </div>
-      
-      <!--//aboutme-->
+      <!-- End About Me -->
 
-      <!--social-container-->
+      <!-- Social-container -->
       <div class="social-container">
         <div class="lead-text">Contattami su</div>
         <ul class="social-list list-inline">
-          <li class="list-inline-item"><a href="https://www.linkedin.com/in/alessio-casolaro-48821220a/"
-              target="_blank" aria-label="Linkedin"><i class="fab fa-linkedin"></i></a></li>
-          <li class="list-inline-item"><a href="https://github.com/AlessioCasolaro" target="_blank" aria-label="GitHub"><i
-                class="fab fa-github"></i></a></li>
-          <li class="list-inline-item"><a href="https://instagram.com/alessio.casolaro" target="_blank" aria-label="Instagram"><i
-                class="fab fa-instagram"></i></a></li>
-          <li class="list-inline-item"><a href="https://www.facebook.com/alessio.casolaro" target="_blank" aria-label="Facebook"><i
-                class="fab fa-facebook"></i></a></li>
-          <li class="list-inline-item"><a href="mailto:alessiocasolaroAThotmailDOTit" target="_blank" onclick="this.href=this.href.replace(/AT/,'&#64;').replace(/DOT/,'&#46;');" aria-label="Email"><i
+          <li class="list-inline-item"><a href="https://www.linkedin.com/in/alessio-casolaro-48821220a/" target="_blank"
+              aria-label="Linkedin"><i class="fab fa-linkedin"></i></a></li>
+          <li class="list-inline-item"><a href="https://github.com/AlessioCasolaro" target="_blank"
+              aria-label="GitHub"><i class="fab fa-github"></i></a></li>
+          <li class="list-inline-item"><a href="https://instagram.com/alessio.casolaro" target="_blank"
+              aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.facebook.com/alessio.casolaro" target="_blank"
+              aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
+          <li class="list-inline-item"><a href="mailto:alessiocasolaroAThotmailDOTit" target="_blank"
+              onclick="this.href=this.href.replace(/AT/,'&#64;').replace(/DOT/,'&#46;');" aria-label="Email"><i
                 class="fas fa-envelope"></i></a></li>
         </ul>
       </div>
-      <!--//social-container-->
+      <!--End Social-container-->
     </div>
-    <!--//wrapper-->
+    <!--End Wrapper-->
 
-    <!--footer-->
+    <!--Footer-->
     <div class="footer text-center">
-      <small class="copyright" onmouseover="easter()">Creato col &#10084 da Alessio Casolaro</small>
+      <small class="copyright" onmouseover="easter()">Fatto col &#10084 da Alessio Casolaro</small>
       <div><img class="position-absolute" id="ee" src="../assets/images/icon.ico"></div>
     </div>
-    <!--//footer-->
+    <!--End footer-->
   </div>
+  <!-- End Profile div -->
+
+  <!-- Script Section -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/1.0.0/anime.min.js'></script>
+  <script src="../assets/script.js"></script>
+  <!-- End Script Section -->
+
 </body>
 
 </html>

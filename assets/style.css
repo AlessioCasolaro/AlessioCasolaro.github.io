@@ -79,6 +79,7 @@ p {
   margin-bottom: 30px;
   border:4px solid white;
   border-radius: 50%;
+  width: 125px; height: 125px;
 }
 
 .name {
